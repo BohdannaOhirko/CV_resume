@@ -41,37 +41,62 @@ a{
     background-color: #FE461C;
     border: 0;
 }
-.banner{
+
+.social-media{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.social-media div::before{
+     position: absolute;
+     content: url('/assets/img/in.png');
+     align-items: center;
+     width: 50px;
+     height: 50px;
+     background-color: #24263B;
+     border-radius: 4px;
+     border: 1px dashed #C4C4C4;
+}
+.social-media div:last-child:before{
+     border:none;
+}
+
+
+.main-banner{
     max-width: 654px;
     margin: 0 auto;
 }
-.banner-subtitle{ 
+.banner-subtitle{
+    margin-bottom: 16px;
+}
+.banner-subtitle h5{ 
     font-family: Public Sans;
     font-weight: 900;
     line-height: 20px;
-    letter-spacing: 15%;
-    margin-bottom: 16px;
+    letter-spacing: 0.15em;
 }
 .banner-title{
-    max-width: 654px;
-}
-.banner-title, .banner-title span{
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 72px;
-    letter-spacing: 0%;
+    width: 662px;
     margin-bottom: 31px;
 }
+.banner-title h1, .banner-title span{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;}
+   
 .banner-title span{
     color: #FE461C;
 }
 .banner-description{
+   max-width: 521px;   
+   margin-bottom: 36px;
+}
+.banner-description h6{
     font-family: Public Sans;
     font-weight: 500;
     line-height: 30px;
-    letter-spacing: 0%;
-    margin-bottom: 36px;
-    max-width: 521px;
+
 }
 .btn-row{
     display: flex;
@@ -90,17 +115,26 @@ a{
 @font-face {
     font-family: "Outfit";
     src: url("../fonts/Outfit/Outfit-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
   }
 @font-face {
     font-family: "Public Sans";
     src: url("../fonts/Public_Sans/PublicSans-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    
   }
   @font-face {
     font-family: "Public Sans";
-    src: url("../fonts/Public_Sans/PublicSans-ExtraBoldItalic.ttf") format("truetype");
+    src: url("../fonts/Public_Sans/PublicSans-ExtraBold.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
   }
 @font-face {
     font-family: "Public Sans";
     src: url("../fonts/Public_Sans/PublicSans-Light.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
   }
   
