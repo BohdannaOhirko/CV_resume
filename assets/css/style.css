@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:#1f2235 ;
+    color: #fff;
+    font-family: Outfit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 15px;
+}
+a{
+    text-decoration: none;
+    
+}
+.container{
+    max-width: 1920px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 51px;
+    margin-left: 816px;
+    margin-bottom: 267px;
+  
+}
+.header-nav-list{
+    padding: 42px 0 43px 0;
+    width: 601px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav-list .header-nav-list-link:first-child{
+    color: #FE461C;;
+}
+.btn{
+    padding: 17px 14px 18px 15px;
+    border-radius: 4px;
+    background-color: #FE461C;
+    border: 0;
+}
+.banner{
+    max-width: 654px;
+    margin: 0 auto;
+}
+.banner-subtitle{ 
+    font-family: Public Sans;
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 15%;
+    margin-bottom: 16px;
+}
+.banner-title{
+    max-width: 654px;
+}
+.banner-title, .banner-title span{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0%;
+    margin-bottom: 31px;
+}
+.banner-title span{
+    color: #FE461C;
+}
+.banner-description{
+    font-family: Public Sans;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-bottom: 36px;
+    max-width: 521px;
+}
+.btn-row{
+    display: flex;
+    gap: 23px;
+}
+.btn-row .btn:first-of-type{
+    padding: 17px 47px 18px 48px;
+}
+.transparent{
+    padding: 17px 18px 18px 18px;
+    background-color: transparent;
+    border:2px solid #fff;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit/Outfit-Bold.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Public Sans";
+    src: url("../fonts/Public_Sans/PublicSans-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Public Sans";
+    src: url("../fonts/Public_Sans/PublicSans-ExtraBoldItalic.ttf") format("truetype");
+  }
+@font-face {
+    font-family: "Public Sans";
+    src: url("../fonts/Public_Sans/PublicSans-Light.ttf") format("truetype");
+  }
+  
