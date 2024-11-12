@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-color:#1f2235 ;
+    background-color: #000;
     color: #fff;
     font-family: Outfit;
     font-size: 16px;
@@ -23,7 +23,7 @@ a{
     justify-content: center;
     gap: 51px;
     margin-left: 816px;
-    margin-bottom: 267px;
+    margin-bottom: 235px;
   
 }
 .header-nav-list{
@@ -41,31 +41,59 @@ a{
     background-color: #FE461C;
     border: 0;
 }
-
+.banner{
+    display: flex;
+}
 .social-media{
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 60px;
+    margin-left: 47px;
+
 }
-.social-media div::before{
+.social-media .in::before{
+    position: absolute;
+    content: url('/assets/img/in.png');
+    text-align: center;
+    width: 22px;
+    height: 21px;
+    top: 15px;
+    left: 12px;
+    z-index: 1;
+}
+.social-media .inst::before{
+    position: absolute;
+    content: url('/assets/img/inst.png');
+    text-align: center;
+    width: 22px;
+    height: 21px;
+    top: 75px;
+    left: 12px;
+    z-index: 1;
+}
+.social-media .be::before{
+    position: absolute;
+    content: url('/assets/img/be.png');
+    text-align: center;
+    width: 22px;
+    height: 21px;
+    top: 140px;
+    left: 12px;
+    z-index: 1;
+}
+.social-media div::after{
      position: absolute;
-     content: url('/assets/img/in.png');
-     align-items: center;
+     content: '';
      width: 50px;
      height: 50px;
      background-color: #24263B;
      border-radius: 4px;
-     border: 1px dashed #C4C4C4;
 }
-.social-media div:last-child:before{
-     border:none;
-}
-
 
 .main-banner{
     max-width: 654px;
-    margin: 0 auto;
+    margin-left: 300px;  
 }
 .banner-subtitle{
     margin-bottom: 16px;
@@ -112,6 +140,39 @@ a{
     box-sizing: border-box;
     
 }
+.programs-set{
+    width: 634px;
+    height: 634px;
+    background-color: #171929;
+    border-radius: 50%;
+    margin-left: 55px;
+    position: relative;
+}
+.programs-set div{
+    width: 55px;
+    height: 45.16px;
+}
+.programs-set .figma{
+    position: absolute;
+    width: 35px;
+    height: 52px;
+    top: 0;
+}
+.programs-set .photoshop{
+    position: absolute;
+    right: 0;
+}
+.programs-set .sketch{
+    position: absolute;
+    bottom: 160px;
+    right: 0;
+ 
+}
+.programs-set .xd{
+    position: absolute;
+    bottom: 160px;
+}
+
 @font-face {
     font-family: "Outfit";
     src: url("../fonts/Outfit/Outfit-Bold.ttf") format("truetype");
