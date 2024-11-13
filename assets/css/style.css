@@ -1,201 +1,198 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    background-color: #000;
-    color: #fff;
-    font-family: Outfit;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 15px;
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
 }
-a{
-    text-decoration: none;
-    
+a {
+  text-decoration: none;
 }
-.container{
-    max-width: 1920px;
-    margin-left: auto; 
-    margin-right: auto;
+.container {
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 51px;
-    margin-left: 816px;
-    margin-bottom: 235px;
-  
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 51px;
+  margin-left: 816px;
+  margin-bottom: 235px;
 }
-.header-nav-list{
-    padding: 42px 0 43px 0;
-    width: 601px;
-    display: flex;
-    justify-content: space-between;
+.header-nav-list {
+  padding: 42px 0 43px 0;
+  width: 601px;
+  display: flex;
+  justify-content: space-between;
 }
-.header-nav-list .header-nav-list-link:first-child{
-    color: #FE461C;;
+.header-nav-list .header-nav-list-link:first-child {
+  color: #fe461c;
 }
-.btn{
-    padding: 17px 14px 18px 15px;
-    border-radius: 4px;
-    background-color: #FE461C;
-    border: 0;
+.btn {
+  padding: 17px 14px 18px 15px;
+  border-radius: 4px;
+  background-color: #fe461c;
+  border: 0;
 }
-.banner{
-    display: flex;
+.banner {
+  display: flex;
 }
-.social-media{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    margin-left: 47px;
-
+.social-media {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  margin-left: 47px;
 }
-.social-media .in::before{
-    position: absolute;
-    content: url('/assets/img/in.png');
-    text-align: center;
-    width: 22px;
-    height: 21px;
-    top: 15px;
-    left: 12px;
-    z-index: 1;
+.social-media .in::before {
+  position: absolute;
+  content: url("/assets/img/in.png");
+  text-align: center;
+  width: 22px;
+  height: 21px;
+  top: 15px;
+  left: 12px;
+  z-index: 1;
 }
-.social-media .inst::before{
-    position: absolute;
-    content: url('/assets/img/inst.png');
-    text-align: center;
-    width: 22px;
-    height: 21px;
-    top: 75px;
-    left: 12px;
-    z-index: 1;
+.social-media .inst::before {
+  position: absolute;
+  content: url("/assets/img/inst.png");
+  text-align: center;
+  width: 22px;
+  height: 21px;
+  top: 75px;
+  left: 12px;
+  z-index: 1;
 }
-.social-media .be::before{
-    position: absolute;
-    content: url('/assets/img/be.png');
-    text-align: center;
-    width: 22px;
-    height: 21px;
-    top: 140px;
-    left: 12px;
-    z-index: 1;
+.social-media .be::before {
+  position: absolute;
+  content: url("/assets/img/be.png");
+  text-align: center;
+  width: 22px;
+  height: 21px;
+  top: 140px;
+  left: 12px;
+  z-index: 1;
 }
-.social-media div::after{
-     position: absolute;
-     content: '';
-     width: 50px;
-     height: 50px;
-     background-color: #24263B;
-     border-radius: 4px;
+.social-media div::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  background-color: #24263b;
+  border-radius: 4px;
 }
 
-.main-banner{
-    max-width: 654px;
-    margin-left: 300px;  
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 654px;
+  margin-left: 300px;
 }
-.banner-subtitle{
-    margin-bottom: 16px;
+.banner-subtitle {
+  margin-bottom: 16px;
 }
-.banner-subtitle h5{ 
-    font-family: Public Sans;
-    font-weight: 900;
-    line-height: 20px;
-    letter-spacing: 0.15em;
+.banner-subtitle h5 {
+  font-family: Public Sans;
+  font-weight: 900;
+  line-height: 20px;
+  letter-spacing: 0.15em;
 }
-.banner-title{
-    width: 662px;
-    margin-bottom: 31px;
+.banner-title {
+  width: 662px;
+  margin-bottom: 31px;
 }
-.banner-title h1, .banner-title span{
-    font-size: 64px;
-    font-weight: 600;
-    line-height: 72px;}
-   
-.banner-title span{
-    color: #FE461C;
+.banner-title h1,
+.banner-title span {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 72px;
 }
-.banner-description{
-   max-width: 521px;   
-   margin-bottom: 36px;
-}
-.banner-description h6{
-    font-family: Public Sans;
-    font-weight: 500;
-    line-height: 30px;
 
+.banner-title span {
+  color: #fe461c;
 }
-.btn-row{
-    display: flex;
-    gap: 23px;
+.banner-description {
+  max-width: 521px;
+  margin-bottom: 36px;
 }
-.btn-row .btn:first-of-type{
-    padding: 17px 47px 18px 48px;
+.banner-description h6 {
+  font-family: Public Sans;
+  font-weight: 500;
+  line-height: 30px;
 }
-.transparent{
-    padding: 17px 18px 18px 18px;
-    background-color: transparent;
-    border:2px solid #fff;
-    box-sizing: border-box;
-    
+.btn-row {
+  display: flex;
+  gap: 23px;
 }
-.programs-set{
-    width: 634px;
-    height: 634px;
-    background-color: #171929;
-    border-radius: 50%;
-    margin-left: 55px;
-    position: relative;
+.btn-row .btn:first-of-type {
+  padding: 17px 47px 18px 48px;
 }
-.programs-set div{
-    width: 55px;
-    height: 45.16px;
+.transparent {
+  padding: 17px 18px 18px 18px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  box-sizing: border-box;
 }
-.programs-set .figma{
-    position: absolute;
-    width: 35px;
-    height: 52px;
-    top: 0;
+.programs-set {
+  width: 634px;
+  height: 634px;
+  background-color: #171929;
+  border-radius: 50%;
+  margin-left: 55px;
+  position: relative;
 }
-.programs-set .photoshop{
-    position: absolute;
-    right: 0;
+.programs-set div {
+  position: absolute;
+  width: 55px;
+  height: 45.16px;
 }
-.programs-set .sketch{
-    position: absolute;
-    bottom: 160px;
-    right: 0;
- 
+.programs-set .figma {
+  width: 35px;
+  height: 52px;
+  top: 0;
+  left: -40px;
 }
-.programs-set .xd{
-    position: absolute;
-    bottom: 160px;
+.programs-set .photoshop {
+  right: -40px;
+}
+.programs-set .sketch {
+  bottom: 130px;
+  right: -40px;
+}
+.programs-set .xd {
+  bottom: 130px;
+  left: -40px;
 }
 
 @font-face {
-    font-family: "Outfit";
-    src: url("../fonts/Outfit/Outfit-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: "Outfit";
+  src: url("../fonts/Outfit/Outfit-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 @font-face {
-    font-family: "Public Sans";
-    src: url("../fonts/Public_Sans/PublicSans-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-    
-  }
-  @font-face {
-    font-family: "Public Sans";
-    src: url("../fonts/Public_Sans/PublicSans-ExtraBold.ttf") format("truetype");
-    font-weight: 900;
-    font-style: normal;
-  }
+  font-family: "Public Sans";
+  src: url("../fonts/Public_Sans/PublicSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 @font-face {
-    font-family: "Public Sans";
-    src: url("../fonts/Public_Sans/PublicSans-Light.ttf") format("truetype");
-    font-weight: 500;
-    font-style: normal;
-  }
-  
+  font-family: "Public Sans";
+  src: url("../fonts/Public_Sans/PublicSans-ExtraBold.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/Public_Sans/PublicSans-Light.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
