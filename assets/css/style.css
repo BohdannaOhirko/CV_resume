@@ -1,9 +1,9 @@
 * {
   margin: 0px;
   padding: 0px;
-  background-color: #000;
+  background-color: #1f2235;
   color: #fff;
-  font-family: Outfit;
+  font-family: "Outfit";
   font-size: 16px;
   font-weight: 700;
   line-height: 15px;
@@ -11,10 +11,12 @@
 a {
   text-decoration: none;
 }
+.accent {
+  background-color: #24263b;
+}
 .container {
-  max-width: 1920px;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1321px;
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -43,14 +45,20 @@ a {
   display: flex;
 }
 .social-media {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 60px;
+  gap: 15px;
   margin-left: 47px;
 }
-.social-media .in::before {
+.social-media div {
+  width: 50px;
+  height: 50px;
+}
+img {
+  background-size: cover;
+}
+/* .social-media .in::before {
   position: absolute;
   content: url("/assets/img/in.png");
   text-align: center;
@@ -87,20 +95,29 @@ a {
   height: 50px;
   background-color: #24263b;
   border-radius: 4px;
-}
+} */
 
 .main-banner {
   display: flex;
   flex-direction: column;
   justify-content: center;
   max-width: 654px;
-  margin-left: 300px;
+  position: relative;
+}
+.circle {
+  width: 204px;
+  height: 204px;
+  background-color: rgba(187, 197, 211, 0.08);
+  border-radius: 50%;
+  position: absolute;
+  top: 8%;
+  right: 82%;
 }
 .banner-subtitle {
   margin-bottom: 16px;
 }
 .banner-subtitle h5 {
-  font-family: Public Sans;
+  font-family: "Public Sans";
   font-weight: 900;
   line-height: 20px;
   letter-spacing: 0.15em;
@@ -124,7 +141,7 @@ a {
   margin-bottom: 36px;
 }
 .banner-description h6 {
-  font-family: Public Sans;
+  font-family: "Public Sans";
   font-weight: 500;
   line-height: 30px;
 }
@@ -146,36 +163,157 @@ a {
   height: 634px;
   background-color: #171929;
   border-radius: 50%;
-  margin-left: 55px;
   position: relative;
+  margin-bottom: 24px;
 }
 .programs-set div {
   position: absolute;
-  width: 55px;
-  height: 45.16px;
+  width: 80px;
+  height: 80px;
 }
 .programs-set .figma {
-  width: 35px;
-  height: 52px;
   top: 0;
-  left: -40px;
+  left: -80px;
 }
 .programs-set .photoshop {
-  right: -40px;
+  right: -80px;
 }
 .programs-set .sketch {
   bottom: 130px;
-  right: -40px;
+  right: -80px;
 }
 .programs-set .xd {
   bottom: 130px;
-  left: -40px;
+  left: -80px;
 }
-
+.about_me {
+  display: flex;
+}
+.picture_about_me {
+  width: 600px;
+  height: 529px;
+}
+.biography-subtitle h5,
+.portfolio-subtitle h5 {
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  margin-bottom: 19px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
+  background: rgb(36, 38, 59);
+  width: 115px;
+  padding: 12px 14px;
+  text-align: center;
+}
+.biography-title h2,
+.portfolio-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 15px;
+}
+.biography-description p {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  max-width: 524px;
+  margin-bottom: 23px;
+}
+.biography-tags {
+  display: flex;
+  flex-direction: row;
+  line-height: 26px;
+  gap: 54px;
+}
+.biography-tags p:first-child {
+  font-weight: 500;
+}
+.biography-tags p:last-child::before {
+  content: ":";
+  padding: 20px;
+}
+.biography-tags p:last-child {
+  font-weight: 300;
+}
+.biography-tags div div {
+  display: flex;
+}
+.btn-biography {
+  padding: 21px 19px 20px;
+  margin-bottom: 134px;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-list {
+  width: 476px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 36px;
+}
+.mockups {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 119px;
+}
+.mockups div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.mockups div div {
+  border-radius: 8px;
+  background: rgb(217, 217, 217);
+  width: 424px;
+}
+.mockups-first-group-first,
+.mockups-second-group-second,
+.mockups-third-group-first {
+  height: 260px;
+}
+.mockups-first-group-second,
+.mockups-second-group-first,
+.mockups-third-group-second {
+  height: 544px;
+}
+.mockups-second-group-first p {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.mockups-second-group-first p:last-child {
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 15px;
+}
 @font-face {
   font-family: "Outfit";
   src: url("../fonts/Outfit/Outfit-Bold.ttf") format("truetype");
   font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit/Outfit-Thin.ttf") format("truetype");
+  font-weight: 300;
   font-style: normal;
 }
 @font-face {
@@ -194,5 +332,17 @@ a {
   font-family: "Public Sans";
   src: url("../fonts/Public_Sans/PublicSans-Light.ttf") format("truetype");
   font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
 }
