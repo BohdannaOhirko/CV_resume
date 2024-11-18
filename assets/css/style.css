@@ -12,7 +12,8 @@ a {
   text-decoration: none;
 }
 .accent {
-  background-color: #24263b;
+  /* background-color: #24263b; */
+  background-color: red;
 }
 .container {
   max-width: 1321px;
@@ -43,6 +44,8 @@ a {
 }
 .banner {
   display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 .social-media {
   display: flex;
@@ -51,13 +54,11 @@ a {
   gap: 15px;
   margin-left: 47px;
 }
-.social-media div {
+.social-media div img {
   width: 50px;
   height: 50px;
 }
-img {
-  background-size: cover;
-}
+
 /* .social-media .in::before {
   position: absolute;
   content: url("/assets/img/in.png");
@@ -188,13 +189,17 @@ img {
 }
 .about_me {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
 }
 .picture_about_me {
   width: 600px;
   height: 529px;
 }
 .biography-subtitle h5,
-.portfolio-subtitle h5 {
+.portfolio-subtitle h5,
+.services-subtitle h5 {
   font-weight: 600;
   line-height: 12px;
   letter-spacing: 0.15em;
@@ -207,7 +212,8 @@ img {
   text-align: center;
 }
 .biography-title h2,
-.portfolio-title h2 {
+.portfolio-title h2,
+.services-title h2 {
   font-size: 36px;
   font-weight: 600;
   line-height: 48px;
@@ -261,6 +267,9 @@ img {
   line-height: 20px;
   margin-bottom: 36px;
 }
+.portfolio-subtitle h5 {
+  margin-top: 120px;
+}
 .mockups {
   display: flex;
   flex-direction: row;
@@ -271,6 +280,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  position: relative;
 }
 .mockups div div {
   border-radius: 8px;
@@ -287,16 +297,70 @@ img {
 .mockups-third-group-second {
   height: 544px;
 }
-.mockups-second-group-first p {
+ul li {
+  list-style: none;
+  background: rgb(217, 217, 217);
+  left: 29px;
+}
+.mockups-second-group-first li:first-child {
   font-family: "Montserrat";
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
+  position: absolute;
+  bottom: 58px;
 }
-.mockups-second-group-first p:last-child {
+.mockups-second-group-first li:last-child {
   font-family: "Poppins";
   font-weight: 400;
   line-height: 15px;
+  position: absolute;
+  bottom: 28px;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services-title h2 {
+  margin-bottom: 55px;
+}
+.services-subtitle h5 {
+  margin-top: 132px;
+  width: 172px;
+}
+.services-technologys div img {
+  width: 50px;
+  height: 50px;
+}
+.services-technologys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-technologys div {
+  width: 307px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  padding-left: 25px;
+  padding-top: 27px;
+  background-color: #1f2235;
+}
+.services-technologys h6 {
+  font-family: "Outfit";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.services-technologys p {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  max-width: 238px;
 }
 @font-face {
   font-family: "Outfit";
