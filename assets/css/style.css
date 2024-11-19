@@ -203,7 +203,8 @@ a {
 }
 .biography-subtitle h5,
 .portfolio-subtitle h5,
-.services-subtitle h5 {
+.services-subtitle h5,
+.resume-subtitle h5 {
   font-weight: 600;
   line-height: 12px;
   letter-spacing: 0.15em;
@@ -217,7 +218,8 @@ a {
 }
 .biography-title h2,
 .portfolio-title h2,
-.services-title h2 {
+.services-title h2,
+.resume-title h2 {
   font-size: 36px;
   font-weight: 600;
   line-height: 48px;
@@ -419,6 +421,11 @@ ul li {
   left: calc(100% - 6px);
   border: 6px solid transparent;
   border-left-color: #fff;
+}
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @font-face {
   font-family: "Outfit";
