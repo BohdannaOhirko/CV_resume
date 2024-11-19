@@ -1,22 +1,22 @@
 * {
   margin: 0px;
   padding: 0px;
-  background-color: #1f2235;
   color: #fff;
   font-family: "Outfit";
   font-size: 16px;
-  font-weight: 700;
   line-height: 15px;
+}
+body {
+  background-color: #1f2235;
 }
 a {
   text-decoration: none;
 }
 .accent {
-  /* background-color: #24263b; */
-  background-color: red;
+  background-color: #24263b;
 }
 .container {
-  max-width: 1321px;
+  width: 1321px;
   margin: 0 auto;
 }
 .header {
@@ -24,6 +24,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 51px;
+  font-weight: 700;
   margin-left: 816px;
   margin-bottom: 235px;
 }
@@ -51,12 +52,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 15px;
   margin-left: 47px;
+  margin-bottom: 50px;
 }
 .social-media div img {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
 }
 
 /* .social-media .in::before {
@@ -149,6 +150,7 @@ a {
 .btn-row {
   display: flex;
   gap: 23px;
+  margin-bottom: 225px;
 }
 .btn-row .btn:first-of-type {
   padding: 17px 47px 18px 48px;
@@ -166,6 +168,7 @@ a {
   border-radius: 50%;
   position: relative;
   margin-bottom: 24px;
+  right: 100px;
 }
 .programs-set div {
   position: absolute;
@@ -174,20 +177,21 @@ a {
 }
 .programs-set .figma {
   top: 0;
-  left: -80px;
+  left: -70px;
 }
 .programs-set .photoshop {
-  right: -80px;
+  right: -70px;
 }
 .programs-set .sketch {
   bottom: 130px;
-  right: -80px;
+  right: -70px;
 }
 .programs-set .xd {
   bottom: 130px;
-  left: -80px;
+  left: -70px;
 }
 .about_me {
+  padding-top: 175px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -219,32 +223,41 @@ a {
   line-height: 48px;
   margin-bottom: 15px;
 }
-.biography-description p {
+.biography-description {
+  max-width: 524px;
+  margin-bottom: 23px;
+}
+.biography-description-block {
   font-family: "Public Sans";
   font-size: 16px;
   font-weight: 300;
   line-height: 26px;
-  max-width: 524px;
-  margin-bottom: 23px;
 }
 .biography-tags {
   display: flex;
   flex-direction: row;
   line-height: 26px;
   gap: 54px;
+  margin-top: 20px;
 }
-.biography-tags p:first-child {
+.biography-tags-title {
   font-weight: 500;
 }
-.biography-tags p:last-child::before {
-  content: ":";
-  padding: 20px;
-}
-.biography-tags p:last-child {
+.biography-tags-subtitle {
   font-weight: 300;
+}
+.biography-tags .biography-tags-subtitle:last-child::before {
+  content: ":";
+  padding-bottom: 20px;
+}
+.biography-tags {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 38px;
 }
 .biography-tags div div {
   display: flex;
+  gap: 10px;
 }
 .btn-biography {
   padding: 21px 19px 20px;
@@ -330,16 +343,17 @@ ul li {
   margin-top: 132px;
   width: 172px;
 }
-.services-technologys div img {
+.services-technology div img {
   width: 50px;
   height: 50px;
 }
-.services-technologys {
+.services-technology {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 120px;
 }
-.services-technologys div {
+.services-technology div {
   width: 307px;
   height: 360px;
   display: flex;
@@ -348,19 +362,63 @@ ul li {
   padding-left: 25px;
   padding-top: 27px;
   background-color: #1f2235;
+  border-radius: 8px;
+  margin-left: 31px;
 }
-.services-technologys h6 {
+.services-technology h6 {
   font-family: "Outfit";
   font-size: 20px;
   font-weight: 600;
   line-height: 25px;
 }
-.services-technologys p {
+.services-technology p {
   font-family: "Public Sans";
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
   max-width: 238px;
+}
+.btn-services-technology {
+  width: 45px;
+  height: 45px;
+  background-color: #24263b;
+  border-radius: 50%;
+  border: none;
+}
+/* .arrow {
+  border: solid #fff;
+  border-width: 0px 2px 2px 0;
+  display: inline-block;
+  padding: 5px;
+  transform: rotate(319deg);
+} */
+.arrow {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  margin-bottom: 7px;
+}
+.btn-services-technology:hover {
+  background-color: #fe461c;
+}
+.arrow:before,
+.arrow:after {
+  position: absolute;
+  content: "";
+}
+.arrow:before {
+  top: calc(50% - 1px);
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+
+.arrow:after {
+  top: calc(50% - 6px);
+  left: calc(100% - 6px);
+  border: 6px solid transparent;
+  border-left-color: #fff;
 }
 @font-face {
   font-family: "Outfit";
