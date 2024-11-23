@@ -552,10 +552,18 @@ ul li {
   width: 424px;
   height: 241px;
   background-color: #1f2235;
-  padding-top: 41px;
+  position: relative;
+  margin-bottom: 232px;
 }
-
+.testimonial-description {
+  position: relative;
+}
+.testimonial-description div {
+  display: flex;
+  align-self: flex-start;
+}
 .testimonial-description h5 {
+  padding-top: 41px;
   font-size: 24px;
   font-weight: 600;
   line-height: 22px;
@@ -575,6 +583,7 @@ ul li {
   font-weight: 400;
   line-height: 26px;
   margin-bottom: 24px;
+  width: 337px;
 }
 .testimonial-description span {
   width: 290px;
@@ -582,6 +591,26 @@ ul li {
   background-color: #e6e7e8;
   margin-bottom: 15px;
 }
+.testimonial-description:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 60px solid #1f2235;
+  border-right: 60px solid transparent;
+  top: 238px;
+  left: -43px;
+}
+.circle img {
+  width: 70px;
+  height: 70px;
+}
+.testimonial-block .quotes {
+  position: absolute;
+  top: 37px;
+  right: 97px;
+}
+
 path {
   fill: #fe461c;
   stroke: #fe461c;
