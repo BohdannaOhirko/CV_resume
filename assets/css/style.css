@@ -196,7 +196,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 4;
+  gap: 59px;
 }
 .picture_about_me {
   width: 600px;
@@ -206,7 +206,8 @@ a {
 .portfolio-subtitle h5,
 .services-subtitle h5,
 .resume-subtitle h5,
-.testimonial-subtitle h5 {
+.testimonial-subtitle h5,
+.blog-subtitle h5 {
   font-weight: 600;
   line-height: 12px;
   letter-spacing: 0.15em;
@@ -214,7 +215,7 @@ a {
   border-radius: 4px;
   box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
   background: rgb(36, 38, 59);
-  width: 115px;
+  /* width: 115px; */
   padding: 12px 14px;
   text-align: center;
 }
@@ -222,7 +223,8 @@ a {
 .portfolio-title h2,
 .services-title h2,
 .resume-title h2,
-.testimonial-title h2 {
+.testimonial-title h2,
+.blog-title h2 {
   font-size: 36px;
   font-weight: 600;
   line-height: 48px;
@@ -535,7 +537,13 @@ ul li {
   position: absolute;
   bottom: 75px;
 }
-
+.testimonial-block-set {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  max-width: 1364px;
+}
 .testimonial div {
   display: flex;
   flex-direction: column;
@@ -549,14 +557,14 @@ ul li {
   margin-bottom: 49px;
 }
 .testimonial-block {
+  position: relative;
   width: 424px;
   height: 241px;
-  background-color: #1f2235;
-  position: relative;
-  margin-bottom: 232px;
+  background-color: red;
 }
 .testimonial-description {
   position: relative;
+  padding-top: 250px;
 }
 .testimonial-description div {
   display: flex;
@@ -596,19 +604,81 @@ ul li {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 60px solid #1f2235;
+  /* border-top: 60px solid #1f2235; */
+  border-top: 60px solid red;
   border-right: 60px solid transparent;
-  top: 238px;
+  bottom: 195px;
   left: -43px;
 }
-.circle img {
+.testimonial-description-circle {
   width: 70px;
   height: 70px;
+  margin-top: 71px;
+  margin-bottom: 120px;
 }
+
 .testimonial-block .quotes {
   position: absolute;
   top: 37px;
   right: 97px;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blog-subtitle h5 {
+  width: 130px;
+  margin-top: 120px;
+  margin-bottom: 22px;
+}
+.blog-title h2 {
+  margin-bottom: 61px;
+}
+.blog-blocks {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-bottom: 119px;
+}
+
+.blog-block-image {
+  border-radius: 8px;
+  background: rgb(217, 217, 217);
+  height: 315px;
+  width: 424px;
+  margin-bottom: 26px;
+}
+.blog-block-items div {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 15px;
+}
+.blog-block-description-items {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.blog-block-description-items div {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 15px;
+}
+.blog-block-name {
+  font-family: "Outfit";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.blog-block-name-description {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  width: 360px;
 }
 
 path {
@@ -667,6 +737,12 @@ path {
 @font-face {
   font-family: "Poppins";
   src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
