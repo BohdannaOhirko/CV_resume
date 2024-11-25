@@ -207,7 +207,8 @@ a {
 .services-subtitle h5,
 .resume-subtitle h5,
 .testimonial-subtitle h5,
-.blog-subtitle h5 {
+.blog-subtitle h5,
+.contact-block-subtitle h5 {
   font-weight: 600;
   line-height: 12px;
   letter-spacing: 0.15em;
@@ -215,7 +216,6 @@ a {
   border-radius: 4px;
   box-shadow: 0px 0px 24px 0px rgba(15, 16, 24, 0.42);
   background: rgb(36, 38, 59);
-  /* width: 115px; */
   padding: 12px 14px;
   text-align: center;
 }
@@ -224,7 +224,8 @@ a {
 .services-title h2,
 .resume-title h2,
 .testimonial-title h2,
-.blog-title h2 {
+.blog-title h2,
+.contact-block-title h2 {
   font-size: 36px;
   font-weight: 600;
   line-height: 48px;
@@ -348,7 +349,7 @@ ul li {
 }
 .services-subtitle h5 {
   margin-top: 132px;
-  width: 172px;
+  width: 173px;
 }
 .services-technology div img {
   width: 50px;
@@ -680,7 +681,177 @@ ul li {
   line-height: 24px;
   width: 360px;
 }
+.subscribe {
+  margin-top: 120px;
+  height: 600px;
+}
+.subscribe-block {
+  width: 1320px;
+  height: 390px;
+  margin: 0 auto;
+  background-color: #1f2235;
+  border-radius: 8px;
 
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.subscribe-block-description {
+  padding: 130px 80px;
+  margin-right: 140px;
+}
+.subscribe-block-description h5 {
+  font-family: "Public Sans";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 9px;
+}
+.subscribe-block-description h2 {
+  font-family: "Outfit";
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 12px;
+  width: 479px;
+}
+.subscribe-block-description p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+}
+.subscribe-block-email {
+  background-color: #fff;
+  border-radius: 80px;
+  width: 550px;
+  height: 60px;
+  margin-top: 15%;
+}
+.subscribe-block-email input {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  width: 100%;
+  color: #9da1b4;
+  background-color: #fff;
+  border: none;
+  padding: 21px 415px 20px 20px;
+  border-radius: 80px;
+}
+.btn-subscribe {
+  position: absolute;
+  padding: 22px 53px 23px 54px;
+  border-radius: 80px;
+  background-color: #fe461c;
+  border: none;
+  color: #fff;
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  right: 0;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-block-subtitle h5 {
+  margin-top: 130px;
+  margin-bottom: 19px;
+  background-color: #24263b;
+  width: 133px;
+}
+.contact-block-title h2 {
+  margin-bottom: 46px;
+}
+.contact-group {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 80px;
+}
+.contact-data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-data-item {
+  width: 368px;
+  height: 117px;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background: rgb(36, 38, 59);
+}
+.contact-data-item div h6 {
+  font-family: "Outfit";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+.contact-data-item div p {
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  width: 224px;
+}
+.send-message-title h6 {
+  font-family: "Outfit";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 28px;
+}
+.input-group {
+  display: flex;
+  gap: 30px;
+}
+.input-box input,
+.textarea textarea {
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  background-color: #24263b;
+  padding: 16.8px 217px 12.32px 29px;
+  min-height: 56px;
+  width: 100%;
+  color: rgb(112, 113, 123);
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+.textarea textarea {
+  padding: 15px 545px 176px 32px;
+}
+.send-message-group {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 40px;
+}
+.btn-message {
+  color: rgb(255, 255, 255);
+  font-family: "Outfit";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  padding: 21px 30px 20px 50px;
+  border-radius: 4px;
+  background-color: #fe461c;
+}
 path {
   fill: #fe461c;
   stroke: #fe461c;
