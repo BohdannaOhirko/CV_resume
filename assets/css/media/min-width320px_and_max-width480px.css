@@ -1,0 +1,86 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  .header-nav-list {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  .banner {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 480px;
+    margin: 0 auto; */
+  }
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+  .banner-subtitle {
+    margin-bottom: 16px;
+  }
+  .banner-subtitle h5 {
+    font-family: "Public Sans";
+    font-weight: 900;
+    line-height: 20px;
+    letter-spacing: 0.15em;
+  }
+  .banner-title {
+    width: 662px;
+    margin-bottom: 10px;
+  }
+  .banner-title h1,
+  .banner-title span {
+    font-size: 25px;
+    width: 290px;
+    line-height: 50px;
+  }
+
+  .banner-title span {
+    color: #fe461c;
+  }
+  .banner-description {
+    margin-bottom: 15px;
+  }
+  .banner-description h6 {
+    line-height: 30px;
+    width: 350px;
+  }
+  .btn-row {
+    margin-bottom: 40px;
+  }
+  .programs-set {
+    width: 200px;
+    height: 200px;
+  }
+  .programs-set div img {
+    width: 30px;
+    height: 30px;
+  }
+  .programs-set .figma {
+    top: 0;
+    left: -70px;
+  }
+  .programs-set .photoshop {
+    right: -90px;
+  }
+  .programs-set .sketch {
+    bottom: 130px;
+    right: -70px;
+  }
+  .programs-set .xd {
+    bottom: 130px;
+    left: -70px;
+  }
+}

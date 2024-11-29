@@ -44,6 +44,9 @@ a {
 .header-nav-list .header-nav-list-link:first-child {
   color: #fe461c;
 }
+.header-nav-list-link:hover {
+  color: #fe461c;
+}
 .btn {
   padding: 17px 14px 18px 15px;
   border-radius: 4px;

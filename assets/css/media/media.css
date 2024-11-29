@@ -1,11 +1,4 @@
-@import url(min-width576.css);
-@import url(min-width768.css);
-@import url(min-width992.css);
-@import url(min-width1200.css);
-@import url(max-width1199.css);
-@import url(max-width991.css);
-@import url(max-width767.css);
-@import url(max-width575.css);
-
-
-
+@import url(min-width320px_and_max-width480px.css);
+@import url(min-width480px_and_max-width768px.css);
+@import url(min-width480px_and_max-width768px.css);
+@import url(min-width1024px_and_max-width1440px.css);

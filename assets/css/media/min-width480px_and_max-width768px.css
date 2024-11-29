@@ -1,0 +1,11 @@
+@media (min-width: 480px) and (max-width: 768px) {
+  .header-nav-list {
+    padding: 42px 0 43px 0;
+    gap: 5px;
+    margin: 0 auto;
+  }
+  .header-nav-list {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
