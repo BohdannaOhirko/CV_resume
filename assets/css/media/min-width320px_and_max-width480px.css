@@ -17,9 +17,11 @@
   .banner {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 5px;
   }
   .main-banner {
     margin-left: 9px;
+    margin-bottom: 40px;
   }
   .social-media {
     display: flex;
@@ -87,11 +89,14 @@
   .about_me {
     flex-wrap: wrap;
     gap: 0;
-    padding-top: 30px;
+    padding-top: 50px;
+  }
+  .picture_about_me {
+    height: auto;
+    margin-bottom: 50px;
   }
   .picture_about_me img {
     width: 300px;
-    height: 229px;
     margin-left: 15px;
   }
   .biography-description {
@@ -103,6 +108,8 @@
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
   }
   .btn-biography {
     margin-bottom: 0;
@@ -134,7 +141,8 @@
     margin-bottom: 10px;
     text-align: center;
   }
-  .portfolio-subtitle h5 {
+  .portfolio-subtitle h5,
+  .testimonial-subtitle h5 {
     margin-top: 50px;
   }
   .portfolio-list {
@@ -187,6 +195,11 @@
     padding-bottom: 20px;
     gap: 20px;
   }
+  .resume-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .resume-list {
     justify-content: center;
     align-items: center;
@@ -201,6 +214,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
   }
 
   .range-technology div div p {
@@ -262,7 +276,10 @@
     padding-bottom: 40px;
   }
   .blog-subtitle h5 {
-    margin-top: 80px;
+    margin-top: 70px;
+  }
+  .blog-title h2 {
+    margin-bottom: 30px;
   }
   .blog-blocks {
     flex-wrap: wrap;
@@ -270,8 +287,106 @@
     align-items: center;
     margin-bottom: 30px;
   }
+  .blog-block-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .blog-block-image {
+    width: 280px;
+  }
+  .blog-block-name {
+    font-size: 18px;
+  }
+  .blog-block-name-description {
+    width: 280px;
+  }
+  .subscribe {
+    padding: 0;
+  }
+  .subscribe-block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: auto;
+    padding-top: 30px;
+    align-items: center;
+  }
+  .subscribe-block-description {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe-block-description h2 {
+    font-size: 30px;
     width: 300px;
-    margin-bottom: 26px;
+    text-align: center;
+  }
+  .subscribe-block-description p {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .subscribe-block-email {
+    margin-top: 0;
+  }
+  .subscribe-block-email input {
+    padding: 21px 95px 20px 15px;
+    font-size: 12px;
+  }
+  .btn-subscribe {
+    right: 10px;
+  }
+
+  .contact-block-subtitle h5 {
+    margin-top: 80px;
+  }
+  .contact-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 40px;
+  }
+  .contact-data-item {
+    width: 300px;
+  }
+  .contact-data-item div h6 {
+    font-size: 18px;
+  }
+  .contact-data-item div p {
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    width: 180px;
+  }
+  .send-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .send-message-title h6 {
+    text-align: center;
+  }
+  .input-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .input-box input,
+  .textarea textarea {
+    padding: 16.8px 80px 12.32px 29px;
+  }
+  .textarea textarea {
+    padding: 15px 80px 176px 32px;
+  }
+  iframe {
+    width: 300px;
+  }
+  footer p {
+    font-size: 12px;
   }
 }
