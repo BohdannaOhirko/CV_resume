@@ -1,390 +1,146 @@
 @media (min-width: 480px) and (max-width: 768px) {
-  .header {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 0;
-    margin-bottom: 15px;
-    gap: 5px;
-  }
-  .header-nav-list {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    gap: 10px;
-  }
   .banner {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 5px;
-  }
-  .main-banner {
-    margin-left: 9px;
-    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
   }
   .social-media {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 50px;
+    margin-left: 0;
   }
   .circle {
-    width: 100px;
-    height: 100px;
-    left: -8px;
+    top: -50px;
+    left: 20%;
   }
+  .main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .banner-title,
   .banner-subtitle {
-    margin-bottom: 16px;
-  }
-
-  .banner-title {
-    margin-bottom: 10px;
-  }
-  .banner-title h1,
-  .banner-title span {
-    font-size: 25px;
-    width: 290px;
-    line-height: 50px;
-  }
-  .banner-description {
-    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
   }
   .banner-description h6 {
-    line-height: 30px;
-    width: 325px;
+    padding-left: 20px;
+    width: 380px;
   }
   .btn-row {
     margin-bottom: 40px;
-    gap: 5px;
-  }
-  .btn-row .btn {
-    padding: 15px 25px;
+    gap: 20px;
   }
   .programs-set {
-    width: 150px;
-    height: 150px;
-    margin-left: 185px;
-  }
-  .programs-set div img {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-  }
-  .programs-set .figma {
-    top: -10px;
-    left: -30px;
-  }
-  .programs-set .photoshop {
-    bottom: -30px;
-    right: -80px;
+    width: 250px;
+    height: 250px;
   }
   .programs-set .sketch {
-    bottom: 80px;
+    bottom: 180px;
     right: -80px;
   }
-  .programs-set .xd {
-    bottom: -30px;
-    left: -30px;
-  }
-  .about_me {
-    flex-wrap: wrap;
-    gap: 0;
-    padding-top: 50px;
-  }
   .picture_about_me {
-    height: auto;
-    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .picture_about_me img {
+  .biography-description {
+    max-width: 380px;
+  }
+  .portfolio-title h2 {
     width: 300px;
-    margin-left: 15px;
-  }
-  .biography-description {
-    max-width: 320px;
-    margin-bottom: 10px;
-  }
-  .biography-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 15px;
-    align-items: center;
-    justify-content: center;
-  }
-  .btn-biography {
-    margin-bottom: 0;
-    display: block;
-    margin: 0 auto;
-  }
-  .biography-description {
-    margin-left: 10px;
-  }
-  .biography-description-block {
-    margin-bottom: 30px;
-  }
-  .biography-subtitle {
-    text-align: center;
-  }
-  .biography-subtitle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .biography-title h2,
-  .portfolio-title h2,
-  .services-title h2,
-  .resume-title h2,
-  .testimonial-title h2,
-  .blog-title h2,
-  .contact-block-title h2 {
-    font-size: 35px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .portfolio-subtitle h5,
-  .testimonial-subtitle h5 {
-    margin-top: 50px;
-  }
-  .portfolio-list {
-    flex-direction: column;
-    gap: 10px;
-    font-weight: 500;
-  }
-  .mockups {
-    flex-direction: column;
-    margin-bottom: 20px;
-    gap: 15px;
-  }
-  .mockups div {
-    gap: 15px;
   }
   .mockups div div {
-    width: 250px;
-  }
-  .mockups-first-group-first,
-  .mockups-second-group-second,
-  .mockups-third-group-first {
-    height: 170px;
-  }
-  .mockups-first-group-second,
-  .mockups-second-group-first,
-  .mockups-third-group-second {
-    height: 272px;
-  }
-  .mockups-second-group-first li:first-child {
-    font-size: 15px;
-  }
-  .mockups-second-group-first li:last-child {
-    font-size: 12px;
-  }
-  .services-subtitle h5 {
-    margin-top: 50px;
+    width: 380px;
   }
   .services-technology {
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-bottom: 0;
+    justify-content: center;
   }
   .services-technology div {
-    width: 270px;
-    height: 330px;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .resume {
     flex-wrap: wrap;
     padding-top: 20px;
     padding-bottom: 20px;
     gap: 20px;
-  }
-  .resume-subtitle {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
-  .resume-list {
+  .services-technology {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 0;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-    gap: 5px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-  }
-  .resume-list-link {
-    padding: 7px 15px 8px 16px;
-  }
-  .resume .picture_about_me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-  }
-
-  .range-technology div div p {
-    font-size: 12px;
-  }
-  .range-technology div div {
-    width: 303px;
-    align-items: center;
   }
   .range-technology div input {
-    width: 303px;
+    width: 380px;
   }
   .range-technology div input:before {
-    width: 275px;
+    width: 342px;
   }
   .range-technology div .photoshop:before {
-    width: 248px;
+    width: 304px;
   }
   .range-technology div .after_Effect:before {
-    width: 214.5px;
+    width: 266px;
   }
   .range-technology div .figma:before {
-    width: 179.5px;
-  }
-  .testimonial-block-set {
-    flex-wrap: wrap;
-    gap: 70px;
-    margin-bottom: 20px;
+    width: 228px;
   }
   .testimonial-block {
-    width: 300px;
-  }
-  .testimonial-description {
-    padding-top: 15px;
-    padding-left: 15px;
+    width: 380px;
   }
   .testimonial-title h2 {
-    font-size: 30px;
+    margin-bottom: 60px;
   }
-  .testimonial-description p {
-    width: 300px;
-  }
-  .testimonial-block .quotes {
-    top: 15px;
-    right: 40px;
-  }
-  .testimonial-description-circle img {
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: -20px;
-  }
-  .testimonial-description:before {
-    bottom: -15px;
-    left: 0;
-  }
-  .accent-testimonial {
-    padding-bottom: 40px;
-  }
-  .blog-subtitle h5 {
-    margin-top: 70px;
-  }
-  .blog-title h2 {
-    margin-bottom: 30px;
-  }
-  .blog-blocks {
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  .blog-block-description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .blog-block-description-items {
+    gap: 40px;
   }
   .blog-block-image {
-    width: 280px;
-  }
-  .blog-block-name {
-    font-size: 18px;
+    width: 380px;
   }
   .blog-block-name-description {
-    width: 280px;
-  }
-  .subscribe {
-    padding: 0;
-  }
-  .subscribe-block {
-    display: flex;
-    flex-wrap: wrap;
-    width: 320px;
-    height: auto;
-    padding-top: 30px;
-    align-items: center;
-  }
-  .subscribe-block-description {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .subscribe-block-description h2 {
-    font-size: 30px;
-    width: 300px;
-    text-align: center;
-  }
-  .subscribe-block-description p {
-    width: 300px;
-    text-align: center;
-    margin-bottom: 30px;
+    width: 380px;
   }
   .subscribe-block-email {
-    margin-top: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  .subscribe-block-description p {
+    margin-bottom: 50px;
   }
   .subscribe-block-email input {
-    padding: 21px 95px 20px 15px;
-    font-size: 12px;
+    padding: 21px 235px 20px 25px;
   }
   .btn-subscribe {
-    right: 10px;
+    right: -70px;
   }
-
-  .contact-block-subtitle h5 {
-    margin-top: 80px;
+  .input-box input,
+  .textarea textarea {
+    padding: 16.8px 165px 12.32px 29px;
   }
-  .contact-group {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding-bottom: 40px;
+  .textarea textarea {
+    padding: 15px 165px 276px 32px;
   }
-  .contact-data-item {
-    width: 300px;
-  }
-  .contact-data-item div h6 {
-    font-size: 18px;
-  }
-  .contact-data-item div p {
-    font-family: "Public Sans";
-    font-size: 12px;
-    font-weight: 300;
-    line-height: 20px;
-    width: 180px;
-  }
-  .send-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .send-message-group {
+    margin-bottom: 20px;
   }
   .send-message-title h6 {
     text-align: center;
   }
-  .input-group {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  .contact-data-item {
+    width: 380px;
   }
-  .input-box input,
-  .textarea textarea {
-    padding: 16.8px 80px 12.32px 29px;
-  }
-  .textarea textarea {
-    padding: 15px 80px 176px 32px;
-  }
+
   iframe {
-    width: 300px;
-  }
-  footer p {
-    font-size: 12px;
+    width: 400px;
   }
 }
