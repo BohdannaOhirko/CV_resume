@@ -1,4 +1,7 @@
 @media (min-width: 480px) and (max-width: 768px) {
+  .header {
+    margin-left: 0;
+  }
   .banner {
     display: flex;
     flex-wrap: wrap;
@@ -53,13 +56,13 @@
     width: 300px;
   }
   .mockups div div {
-    width: 380px;
+    width: 320px;
   }
   .services-technology {
     justify-content: center;
   }
   .services-technology div {
-    width: 380px;
+    width: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,55 +83,68 @@
     justify-content: center;
   }
   .range-technology div input {
-    width: 380px;
+    width: 320px;
   }
   .range-technology div input:before {
-    width: 342px;
+    width: 288px;
   }
   .range-technology div .photoshop:before {
-    width: 304px;
+    width: 256px;
   }
   .range-technology div .after_Effect:before {
-    width: 266px;
+    width: 224px;
   }
   .range-technology div .figma:before {
-    width: 228px;
+    width: 192px;
   }
   .testimonial-block {
-    width: 380px;
+    width: 320px;
   }
   .testimonial-title h2 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    width: 320px;
   }
   .blog-block-description-items {
     gap: 40px;
   }
   .blog-block-image {
-    width: 380px;
+    width: 320px;
   }
   .blog-block-name-description {
-    width: 380px;
+    width: 320px;
   }
-  .subscribe-block-email {
-    /* display: flex;
+  .subscribe {
+    flex-direction: column;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+  }
+  .subscribe-block {
+    width: 320px;
+    height: 390px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .subscribe-block-description p {
     margin-bottom: 50px;
   }
   .subscribe-block-email input {
-    padding: 21px 235px 20px 25px;
+    padding: 21px 155px 20px 25px;
   }
   .btn-subscribe {
     right: -70px;
   }
+  .contact-block-subtitle h5 {
+    margin-top: 30px;
+  }
   .input-box input,
   .textarea textarea {
-    padding: 16.8px 165px 12.32px 29px;
+    padding: 16.8px 105px 12.32px 29px;
   }
   .textarea textarea {
-    padding: 15px 165px 276px 32px;
+    padding: 15px 105px 276px 32px;
   }
   .send-message-group {
     margin-bottom: 20px;
@@ -137,10 +153,10 @@
     text-align: center;
   }
   .contact-data-item {
-    width: 380px;
+    width: 320px;
   }
 
   iframe {
-    width: 400px;
+    width: 320px;
   }
 }
