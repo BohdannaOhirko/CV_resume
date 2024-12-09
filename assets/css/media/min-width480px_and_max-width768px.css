@@ -3,6 +3,7 @@
     margin-left: 0;
   }
   .banner {
+    width: 320px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -15,18 +16,25 @@
     top: -50px;
     left: 20%;
   }
+  .container {
+    width: 320px;
+  }
   .main-banner {
+    width: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+  }
+  .banner-title {
+    width: 320px;
   }
   .banner-title,
   .banner-subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 380px;
+    width: 320px;
   }
   .banner-description h6 {
     padding-left: 20px;
@@ -43,6 +51,9 @@
   .programs-set .sketch {
     bottom: 180px;
     right: -80px;
+  }
+  .picture_about_me img {
+    width: 320px;
   }
   .picture_about_me {
     display: flex;
