@@ -1,11 +1,108 @@
 @media (min-width: 1024px) and (max-width: 1440px) {
-  .header-nav-list {
-    padding: 42px 0 43px 0;
-    gap: 5px;
-    margin: 0 auto;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
   }
   .header-nav-list {
-    font-size: 12px;
-    font-weight: 500;
+    flex-direction: row;
+  }
+  .banner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  .social-media div img {
+    width: 150px;
+    height: 150px;
+  }
+  .picture_about_me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .picture_about_me img {
+    width: 780px;
+  }
+  .portfolio {
+    gap: 30px;
+  }
+  .portfolio-list {
+    flex-direction: row;
+    gap: 15px;
+  }
+  .portfolio-title h2 {
+    width: 500px;
+  }
+  .mockups div {
+    display: flex;
+    flex-direction: row;
+    height: 360px;
+  }
+  .mockups div div {
+    border-radius: 8px;
+    background: rgb(217, 217, 217);
+    width: 324px;
+  }
+  .services-technology {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-technology div {
+    width: 324px;
+  }
+  .resume {
+    flex-wrap: wrap;
+    gap: 150px;
+  }
+  .range-technology div input {
+    width: 680px;
+  }
+  .range-technology div input:before {
+    width: 612px;
+  }
+  .range-technology div .photoshop:before {
+    width: 544px;
+  }
+  .range-technology div .after_Effect:before {
+    width: 476px;
+  }
+  .range-technology div .figma:before {
+    width: 408px;
+  }
+  .testimonial-block-set {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blog-blocks {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .subscribe-block-email input {
+    padding: 21px 376px 20px 20px;
+  }
+  .btn-subscribe {
+    padding: 22px 53px 23px 54px;
+    right: -60px;
+  }
+  .contact-group {
+    flex-direction: row;
+  }
+  .send-message {
+    padding-top: 50px;
+  }
+  iframe {
+    width: 780px;
   }
 }
