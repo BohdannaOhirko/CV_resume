@@ -3,7 +3,7 @@
     margin-left: 0;
   }
   .banner {
-    width: 320px;
+    max-width: 320px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,7 +14,7 @@
   }
   .circle {
     top: -50px;
-    left: 20%;
+    left: 0;
   }
   .container {
     width: 320px;
@@ -38,7 +38,7 @@
   }
   .banner-description h6 {
     padding-left: 20px;
-    width: 380px;
+    width: 320px;
   }
   .btn-row {
     margin-bottom: 40px;
@@ -77,6 +77,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 0;
   }
   .resume {
     flex-wrap: wrap;
@@ -110,6 +111,11 @@
   }
   .testimonial-block {
     width: 320px;
+  }
+  .testimonial-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .testimonial-title h2 {
     margin-bottom: 30px;

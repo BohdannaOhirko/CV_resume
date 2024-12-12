@@ -11,9 +11,16 @@
   .banner {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 1024px;
     justify-content: center;
     align-items: center;
+    margin: auto;
+  }
+  .circle {
+    left: -100px;
+  }
+  .container {
+    width: 1024px;
   }
   .social-media {
     display: flex;
@@ -24,6 +31,11 @@
   .social-media div img {
     width: 150px;
     height: 150px;
+  }
+  .programs-set {
+    right: 0;
+    width: 500px;
+    height: 500px;
   }
   .picture_about_me {
     display: flex;
@@ -52,6 +64,9 @@
     border-radius: 8px;
     background: rgb(217, 217, 217);
     width: 324px;
+  }
+  .services.accent {
+    padding-bottom: 100px;
   }
   .services-technology {
     flex-wrap: wrap;
@@ -85,19 +100,43 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .accent-testimonial {
+    padding-bottom: 80px;
+  }
   .blog-blocks {
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .blog-block-description-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .subscribe-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 300px;
+  }
+  .subscribe-block-description {
+    margin-right: 0;
+  }
+  .subscribe-block-email {
+    margin-right: 0;
   }
   .subscribe-block-email input {
     padding: 21px 376px 20px 20px;
   }
   .btn-subscribe {
     padding: 22px 53px 23px 54px;
-    right: -60px;
+    right: 35px;
   }
   .contact-group {
     flex-direction: row;
+  }
+  .contact-block-subtitle h5 {
+    margin-top: 50px;
   }
   .send-message {
     padding-top: 50px;

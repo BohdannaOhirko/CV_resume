@@ -42,13 +42,17 @@
   .banner-title h1 {
     text-align: center;
   }
+  .banner-description h6 {
+    padding-left: 0;
+  }
   .btn-row .btn {
     font-size: 18px;
     white-space: nowrap;
   }
   .programs-set {
-    display: block;
-    margin: 0 auto;
+    right: 0;
+    width: 300px;
+    height: 300px;
   }
   .programs-set .photoshop {
     right: -90px;
@@ -72,11 +76,26 @@
   .picture_about_me img {
     width: 420px;
   }
+  .biography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .biography-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .biography-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-bottom: 15px;
+  }
+  .btn-biography {
+    margin-bottom: 20px;
   }
   .portfolio-subtitle h5 {
     margin-top: 70px;
@@ -103,6 +122,9 @@
   }
   .mockups div div {
     width: 420px;
+  }
+  .services.accent {
+    padding-bottom: 50px;
   }
   .services-subtitle h5 {
     margin-top: 60px;
@@ -146,6 +168,9 @@
   }
   .resume-subtitle h5 {
     margin-top: 50px;
+  }
+  .accent-testimonial {
+    padding-bottom: 50px;
   }
   .testimonial-subtitle h5 {
     margin-top: 50px;
@@ -200,21 +225,31 @@
   .blog-block-image {
     width: 380px;
   }
+  .subscribe {
+    width: 100%;
 
+    padding: 0;
+  }
   .subscribe-block {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 380px;
+    width: 320px;
     height: auto;
-    padding-top: 30px;
+    padding: 60px 100px;
   }
   .subscribe-block-description {
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 0;
+  }
+
+  .subscribe-block-email {
+    margin-right: 0;
   }
   .subscribe-block-description h2 {
     font-size: 30px;
@@ -230,11 +265,11 @@
     margin-top: 0;
   }
   .subscribe-block-email input {
-    padding: 21px 95px 20px 15px;
+    padding: 21px 165px 20px 15px;
     font-size: 12px;
   }
   .btn-subscribe {
-    right: 10px;
+    right: -90px;
   }
   .contact-group {
     display: flex;
